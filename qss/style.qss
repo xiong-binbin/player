@@ -1,0 +1,80 @@
+/* 标题栏 */
+QWidget{
+    border: none;
+}
+
+QWidget#titleBar{
+    background: "#111111";
+}
+
+QPushButton#minButton{
+    border: none;
+    image: url(:/icon/min.png);
+    background: "#111111";
+}
+
+QPushButton#minButton:hover{
+    background: "#444549";
+}
+
+QPushButton#maxButton{
+    border: none;
+    image: url(:/icon/max.png);
+    background: "#111111";
+}
+
+QPushButton#maxButton:hover{
+    background: "#444549";
+}
+
+QPushButton#closeButton{
+    border: none;
+    image: url(:/icon/close.png);
+    background: "#111111";
+}
+
+QPushButton#closeButton:hover{
+    background: "#e81123";
+}
+
+QPushButton#menuButton{
+    color: "#bdbdbd";
+    border: none;
+    text-align: left center;
+    padding-left: 20px;
+}
+
+QPushButton#menuButton::menu-indicator{
+    subcontrol-position: right center;
+    subcontrol-origin: padding;
+    padding-right: 60px;
+}
+
+QMenu{
+    color: "#bdbdbd";
+    background-color: "#333333";
+}
+
+QMenu::item{
+    padding: 8px 30px;
+}
+
+QMenu::item:selected{
+    background-color: "#0096ff";
+}
+
+/* 控制栏 */
+QWidget#controlBar{
+    background: "#111111";
+}
+
+QPushButton#playButton{
+    border-radius: 25px;
+    image: url(:/icon/play.png);
+    background-color: "#0096ff";
+}
+
+/* 播放窗口 */
+QWidget#viewWindow{
+    border-image: url(:/icon/background.png);
+}
