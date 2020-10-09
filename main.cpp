@@ -2,9 +2,6 @@
 #include <QScopedPointer>
 #include <QApplication>
 
-
-MainWindow* MainWindow::m_mainWindow = nullptr;
-
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

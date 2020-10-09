@@ -8,6 +8,8 @@
 #include <Windowsx.h>
 #endif
 
+MainWindow* MainWindow::m_mainWindow = nullptr;
+
 MainWindow::MainWindow()
 {
     resize(1024, 680);
